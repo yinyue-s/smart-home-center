@@ -1,0 +1,32 @@
+# ===== Keil MDK 编译产物 =====
+firmware/MDK-ARM/*.o
+firmware/MDK-ARM/*.crf
+firmware/MDK-ARM/*.d
+firmware/MDK-ARM/*.axf
+firmware/MDK-ARM/*.hex
+firmware/MDK-ARM/*.htm
+firmware/MDK-ARM/*.map
+firmware/MDK-ARM/*.dep
+firmware/MDK-ARM/*.lnp
+firmware/MDK-ARM/*.lst
+firmware/MDK-ARM/*.sct
+firmware/MDK-ARM/*.uvguix.*
+firmware/MDK-ARM/*.uvoptx
+firmware/MDK-ARM/*.build_log.htm
+firmware/MDK-ARM/YAO Demo/
+
+# STM32Cube 固件库体积较大，可由 CubeMX 依据 .ioc 重新生成
+firmware/Drivers/
+
+# ===== Qt 构建产物 =====
+qt-upper-computer/build-*/
+qt-upper-computer/*.o
+qt-upper-computer/moc_*
+qt-upper-computer/ui_*
+qt-upper-computer/Makefile
+qt-upper-computer/.qmake.stash
+qt-upper-computer/*.pro.user
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
